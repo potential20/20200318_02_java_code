@@ -1,12 +1,15 @@
 package kr.co.tjoeun.a20200318_02_java_code.datas;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 
     private String name;
     private int birthYear;
 
 //    Alt + Insert => Getter and Setter 선택
 //    같은 방식으로 생성자 (Constructor) 도 생성 가능.
+
 
 
     public User(String name, int birthYear) {
